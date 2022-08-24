@@ -1,0 +1,68 @@
+/* Variables */
+
+:root {
+    --red-brown: #A05941;
+    --green-black: #133032;
+    --light-grey: #EDEDEE;
+    --black: #000;
+    --white: #FFF;
+    --transparent-white: rgba(0, 0, 0, 0.75);
+    --heading-font: 'Fjalla One', sans-serif;
+    --body-font: 'Outfit', sans-serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--red-brown);
+    font-family: var(--body-font);
+}
+
+.h__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.h__search__form {
+    align-self: center;
+}
+
+/* Search form */
+#h__search__input {
+    width: 100%;
+    height: 50px;
+    padding: 0.5rem 1rem;
+    border: 0;
+    font-family: Outfit, sans-serif, FontAwesome;
+    font-size: 16px;
+}
+
+#h__search__input::placeholder {
+    color: var(--red-brown);
+}
+
+#h__search__input:hover {
+border: 0.5px solid var(--red-brown);
+}
+
+/* Shopping cart */
+.h__cart__container {
+    justify-self: center;
+    width: 40px;
+    height: auto;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.h__cart>path {
+    fill: var(--red-brown);
+}
+
+.h__cart__text {
+    fill: var(--white);
+    font-size: 50px;
+    font-weight: bold;
+}
