@@ -3,9 +3,33 @@
 .m__section_hero {
     height: 100vh;
     background-image: url("../img/bg.jpg");
-    background-position: center;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     filter: grayscale(50%);
+}
+
+.m__logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m__span span {
+    display: block;
+    padding-bottom: 0.5rem;
+    color: var(--white);
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.m__span div {
+    border-top: 2px solid var(--white);
+}
+
+.m__logo {
+    width: 128px;
+    height: 128px;
+    margin: 2rem;
 }
