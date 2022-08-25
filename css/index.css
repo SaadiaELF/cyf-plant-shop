@@ -207,9 +207,21 @@
     z-index: 2;
 }
 
+/* Login */
+.h__login__container {
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.fa-circle-user{
+    padding-right: 1rem;
+}
 .h__nav__menu {
     list-style-type: none;
-    margin-top: 10em;
 }
 
 .h__nav__menu li {
